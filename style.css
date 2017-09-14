@@ -1,0 +1,147 @@
+.content {
+    /* overflow: scroll; */
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    transition: background 0.2s linear;
+    user-select: none;
+}
+
+#title {
+    font-size: 72px;
+    margin-left: 10px;
+    /* background-color: white; */
+    width: 100%;
+    text-align: center;
+    /* float middle */
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -20%);
+    cursor: default;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.tldr {
+    /* transition: background 0.3s linear; */
+    cursor: default;
+}
+
+ul {
+    list-style: none;
+}
+
+.header > li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header {
+    font-size: 20px;
+    
+    /* background-color: white; */
+    width: 100%;
+    text-align: center;
+
+    position: fixed;
+    top: 33%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.header:hover {
+    cursor: pointer;
+}
+
+.page-content {
+    /* display: none; */
+}
+
+.showme {
+    display: inline;
+}
+
+div.page-content > .content {
+    display: none;
+}
+
+#home-content {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    border-style: outset;
+    border-width: 10px;
+    border-color: #0080ff;
+    background-color: white;
+}
+
+#about-content {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    
+    border-style: outset;
+    border-width: 10px;
+    border-color: yellow;
+    background-color: white;
+}
+
+.about-list {
+    text-align: left;
+}
+
+#email-content {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    
+    border-style: outset;
+    border-width: 10px;
+    border-color: #ff0080;
+    background-color: white;
+}
+
+#linkedin-content {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    
+    border-style: outset;
+    border-width: 10px;
+    border-color: #80ff7f;
+    background-color: white;
+}
