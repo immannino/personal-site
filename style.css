@@ -83,7 +83,7 @@ div.page-content > .content {
     margin-top: 20px;
     padding: 20px;
     position: fixed;
-    top: 45%;
+    top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
@@ -99,7 +99,7 @@ div.page-content > .content {
     margin-top: 20px;
     padding: 20px;
     position: fixed;
-    top: 45%;
+    top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
@@ -119,7 +119,7 @@ div.page-content > .content {
     margin-top: 20px;
     padding: 20px;
     position: fixed;
-    top: 45%;
+    top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
@@ -135,7 +135,7 @@ div.page-content > .content {
     margin-top: 20px;
     padding: 20px;
     position: fixed;
-    top: 45%;
+    top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
@@ -144,4 +144,22 @@ div.page-content > .content {
     border-width: 10px;
     border-color: #80ff7f;
     background-color: white;
+}
+
+.legal {
+    font-size: 8px;
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+
+.social-media {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.social-media img {
+    height: 32px;
+    width: 32px;
 }
